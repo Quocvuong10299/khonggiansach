@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'Be_Vietnam';
+  src: url('../fonts/Be_Vietnam/BeVietnam-Bold.woff2') format('woff2'),
+  url('../fonts/Be_Vietnam/BeVietnam-Bold.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Be_Vietnam';
+  src: url('../fonts/Be_Vietnam/BeVietnam-BoldItalic.woff2') format('woff2'),
+  url('../fonts/Be_Vietnam/BeVietnam-BoldItalic.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Be_Vietnam';
+  src: url('../fonts/Be_Vietnam/BeVietnam-ExtraBold.woff2') format('woff2'),
+  url('../fonts/Be_Vietnam/BeVietnam-ExtraBoldItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Be_Vietnam';
+  src: url('../fonts/Be_Vietnam/BeVietnam-Italic.woff2') format('woff2'),
+  url('../fonts/Be_Vietnam/BeVietnam-Italic.woff') format('woff');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Be_Vietnam';
+  src: url('../fonts/Be_Vietnam/BeVietnam-ExtraBold.woff2') format('woff2'),
+  url('../fonts/Be_Vietnam/BeVietnam-ExtraBoldItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Be_Vietnam';
+  src: url('../fonts/Be_Vietnam/BeVietnam-Light.woff2') format('woff2'),
+  url('../fonts/Be_Vietnam/BeVietnam-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Be_Vietnam';
+  src: url('../fonts/Be_Vietnam/BeVietnam-Medium.woff2') format('woff2'),
+  url('../fonts/Be_Vietnam/BeVietnam-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Be_Vietnam';
+  src: url('../fonts/Be_Vietnam/BeVietnam-Regular.woff2') format('woff2'),
+  url('../fonts/Be_Vietnam/BeVietnam-Regular.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Be_Vietnam';
+  src: url('../fonts/Be_Vietnam/BeVietnam-SemiBold.woff2') format('woff2'),
+  url('../fonts/Be_Vietnam/BeVietnam-SemiBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Be_Vietnam';
+  src: url('../fonts/Be_Vietnam/BeVietnam-Thin.woff2') format('woff2'),
+  url('../fonts/Be_Vietnam/BeVietnam-Thin.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+$font_1: 'Be_Vietnam', sans-serif;
+//$font_2: 'Maven Pro', sans-serif;

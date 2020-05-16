@@ -1,0 +1,200 @@
+.btn{
+  padding: 1rem 2rem;
+  display: inline-block;
+  //font-family: $font_1;
+  @include transition;
+  &-primary{
+    display: inline-flex;
+    align-items: center;
+    background-color: $color_1;
+    border-radius: 4px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    vertical-align: center;
+    border: 1px solid $color_1;
+    &:hover{
+      background-color: #fff;
+      color: $color_1;
+      //border: 1px solid $color_1;
+      text-decoration: none;
+      svg{
+        //stroke: #fff;
+        //fill: #fff;
+      }
+      path{
+        fill: $color_1;
+      }
+    }
+  }
+  &-secondary{
+    display: block;
+    color: $color_7;
+    background-color: #fff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border-radius: 4px;
+    z-index: 99;
+    color: $color_1;
+    &:hover{
+      background-color: $color_1;
+      color: #fff;
+    }
+  }
+  &-mini{
+    background-color: $color_4;
+    padding: 5px 10px!important;
+    //font-family: $font_1;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    @include transition;
+    &:hover{
+      background-color: rgba(#000,0.5);
+      color: #FFFFFF;
+    }
+  }
+  &-a{
+    background-color: $color_4;
+    color: #fff;
+    border: 1px solid $color_4;
+    font-style: normal;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    text-transform: uppercase;
+    svg, path{
+      @include transition;
+    }
+    &:hover{
+      background-color: #fff;
+      color: $color_4;
+      svg, path{
+        fill: $color_4;
+      }
+    }
+    &.big{
+
+      padding: 1rem 2rem;
+    }
+    &.medium{
+      padding: 0.8rem 1rem;
+    }
+  }
+  &-b{
+    background-color: #fff;
+    color: $color_4;
+    border: 1px solid $color_4;
+    font-style: normal;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    svg, path{
+      @include transition;
+    }
+    &:hover{
+      background-color: #fff;
+      color: $color_4;
+      svg, path{
+        fill: $color_4;
+      }
+    }
+    &.big{
+
+      padding: 1rem 2rem;
+    }
+  }
+  &-submit{
+    @include transition;
+    background-color: $color_4;
+
+    //font-family: $font_1;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 1rem 2rem 1rem 3rem;
+    border: none;
+    background-image: url("../images/mdi_send.svg");
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-position: left 25px center;
+    cursor: pointer;
+    &:hover{
+      background-color: $color_1;
+    }
+  }
+  &-search{
+    background-color: $color_4;
+    @include transition;
+    //font-family: $font_1;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 0.9rem 2rem 0.9rem 3rem;
+    border: none;
+    //background-image: url("../images/ic-search-w.svg");
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-position: left 25px center;
+    cursor: pointer;
+    &:hover{
+      //background-color: $color_1;
+    }
+  }
+  .placeholder-gray{
+    &::placeholder, &::-webkit-input-placeholder, &:-ms-input-placeholder, &::-moz-placeholder{
+      color: rgba(51, 51, 51, 0.5) !important;
+
+    }
+  }
+}
+.top-navbar{
+  .right{
+    .btn-primary{
+      position: relative;
+      &+.btn-primary{
+        &:before{
+          content: "";
+          width: 1px;
+          top: 50%;
+          left: 0;
+          transform: translate(-50%, -50%);
+
+          //border-left: 1px solid $color_5;
+          background-color: $color_5;
+          height: 60%;
+          position: absolute;
+          z-index: 0;
+        }
+      }
+    }
+  }
+}

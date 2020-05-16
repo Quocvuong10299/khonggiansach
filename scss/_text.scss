@@ -1,0 +1,223 @@
+body{
+  font-family: $font_1;
+  font-size: 16px;
+
+}
+.t-gradientPage{
+  color:$color_2;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+}
+.t-seccon{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+}
+.t-topPage{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: $color_1;
+}
+.t-navTop{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  //text-transform: uppercase;
+  //color: $color_1;
+}
+.t-mainMegaMenu{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: $color_1;
+}
+.t-subMegaMenu{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 32px;
+  color: $color_1;
+}
+.t-sectionNameHomepage, h2{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.01em;
+  color: #FFFFFF;
+}
+.t-titleCard{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: $color_7;
+}
+.t-titleBanner{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 60px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: $color_9;
+}
+.t-bigTitleBanner{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.01em;
+  background: $color_2;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h1,.t-titleService{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.875rem;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  background: linear-gradient(180deg, #0068AA 0%, #44C8F5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.t-titleSmallService{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  font-feature-settings: 'salt' on;
+  color: $color_3;
+}
+.t-bodyText, p, td, li{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  color: $color_1;
+}
+.t-sectionNameProductDetail, h4{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.01em;
+}
+.h4-bold{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: #C4C4C4;
+}
+.tf-normal{
+  text-transform: none;
+}
+.h3-title, h3{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  &:hover{
+    text-decoration: none;
+  }
+}
+.h5-title, h5{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: #C4C4C4;
+}
+.t-darkRed{
+  //color: $color_3;
+  a{
+
+    //color: $color_3;
+  }
+}
+.t-gray05{
+
+  color: rgba(0, 0, 0, 0.5);
+}
+.font-1{
+  font-family: $font_1;
+}
+.t-banner-2{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.25rem;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #FFFFFF;
+}
+.text-normal-footer{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: #fff;
+}
+.text-content-product{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  font-feature-settings: 'salt';
+  color: $color_5;
+}
+
+.text-p{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  font-feature-settings: 'salt' on;
+  color: #000000;
+}
+.text-big{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 72px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: $color_1;
+}
+.text-gradient{
+  background: linear-gradient(180deg, #0068AA 0%, #44C8F5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
